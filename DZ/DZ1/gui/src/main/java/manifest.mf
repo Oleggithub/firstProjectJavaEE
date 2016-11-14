@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Created-By: 1.8.0_60 (Oracle Corporation)
-Class-path: lib\commons-lang-2.3.jar
-Main-Class: textfieldsample.SimpleGUI
-
