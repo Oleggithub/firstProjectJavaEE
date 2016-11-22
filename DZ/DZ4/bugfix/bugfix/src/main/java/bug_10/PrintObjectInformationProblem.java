@@ -13,10 +13,19 @@ class User {
     private User manager;
 
     private Company company;
+    private String address;
 
     private String name;
     private String surName;
     private int age;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public User getManager() {
         return manager;
@@ -62,7 +71,8 @@ class User {
     public String toString() {
         return "User{" +
                 "manager=" + manager +
-               // ", company=" + company.getAddress()+
+                ", company=" + company +
+                ", address=" + address +
                 ", name='" + name + '\'' +
                 ", surName='" + surName + '\'' +
                 ", age=" + age +

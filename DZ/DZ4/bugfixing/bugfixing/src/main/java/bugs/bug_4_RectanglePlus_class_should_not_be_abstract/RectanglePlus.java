@@ -1,6 +1,8 @@
 package bugs.bug_4_RectanglePlus_class_should_not_be_abstract;
 
-public abstract class RectanglePlus implements Relatable {
+import java.util.Arrays;
+
+public class RectanglePlus implements Relatable {
 
     public int width = 0;
     public int height = 0;
@@ -54,6 +56,13 @@ public abstract class RectanglePlus implements Relatable {
 
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("args = " + Arrays.toString(args));
+
+    }
+
+    @Override
+    public int isLarger(Relatable other) {
+        return 0;
     }
 }
 

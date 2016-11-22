@@ -20,7 +20,7 @@ class Child extends Parent {
     private String mTitle = "sfdv";
 
     public Child() {
-        super();
+       // super();
         System.out.println(mTitle.equals(toString()));
     }
 

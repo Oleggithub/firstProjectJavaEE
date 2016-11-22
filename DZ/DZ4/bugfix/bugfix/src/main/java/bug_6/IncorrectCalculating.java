@@ -7,7 +7,7 @@ public class IncorrectCalculating {
         int a = 10;
         int b = 20;
 
-        System.out.println(new Calculator(a, b).add(a, b, 2));
+        System.out.println(new Calculator(a, b).add(a, b));
     }
 
 
@@ -45,7 +45,7 @@ class Calculator {
 
             return sum;
         } finally {
-            return (int) (Math.random() * 10 + 1);
+           // return (int) (Math.random() * 10 + 1);
         }
 
     }

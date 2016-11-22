@@ -9,8 +9,8 @@ public class PolygonTest {
         int[] xPoints = {-2, 2, -2};
         int[] yPoints = {2, 2, -2};
 
-        Polygon polygon = new Polygon(xPoints, yPoints, xPoints.length);
-        boolean checkPoint = polygon.contains(1, 1);
+        Polygon polygon = new Polygon(xPoints, yPoints, yPoints.length);
+        boolean checkPoint = polygon.contains(1, 2);
         System.out.print(checkPoint);//why false?) -> should be true))
     }
 }
