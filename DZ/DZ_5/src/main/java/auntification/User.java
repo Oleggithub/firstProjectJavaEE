@@ -4,12 +4,21 @@ package auntification;
  * Created by b_nop on 23.11.2016.
  */
 public class User {
-    String name = "Oleg";
-    String surname = "Mir";
-    int age = 39;
+    String name;
+    String surname;
+    int age;
     UserRole role;
 
+    public User(String name, String surname, int age, UserRole role) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.role = role;
+    }
 
+    public User() {
+
+    }
 
     public String getName() {
         return name;
@@ -41,5 +50,15 @@ public class User {
 
     public void setRole(UserRole role) {
         this.role = role;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                ", role=" + role +
+                '}';
     }
 }
