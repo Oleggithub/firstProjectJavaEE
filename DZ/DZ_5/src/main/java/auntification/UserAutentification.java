@@ -11,5 +11,7 @@ public @interface UserAutentification {
     UserRole userRoleS() default UserRole.SUPER_USER;
     UserRole userRoleA() default UserRole.ADMIN;
     UserRole userRoleU() default UserRole.USER;
+
+
 }
 

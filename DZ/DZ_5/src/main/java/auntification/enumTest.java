@@ -13,10 +13,11 @@ public class enumTest {
         switch (userRole) {
             case ADMIN:
                 System.out.println("ADMIN");
-                break;
+                 break;
 
             case USER:
                 System.out.println("USER");
+
                 break;
 
             case SUPER_USER:
