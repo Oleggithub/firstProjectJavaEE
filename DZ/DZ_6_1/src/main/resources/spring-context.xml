@@ -4,13 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean name="avtoService" class="avto_test.avtoService.AvtoServiceImpl">
-        <!-- sviazali userService i userRepo -->
+        <!-- sviazali avtoService i avtoRepo -->
 
-        <!--rabotaet cherez set metod v classe UserServiceImpl-->
-        <!--<property name="userRepo" ref="userRepo"/>-->
+        <!--rabotaet cherez set metod v classe AvtoServiceImpl-->
+        <property name="avtoRepo" ref="avtoRepo"/>
 
         <!--rabotaet cherez constructor-->
-        <constructor-arg index="0" ref="avtoRepo"/>
+        <!--<constructor-arg index="0" ref="avtoRepo"/>-->
 
     </bean>
     <!--&lt;!&ndash; realizatsia &ndash;&gt;-->
@@ -18,8 +18,8 @@
     <bean name="avtoRepo" class="avto_test.avtoRepo.AvtoRepoImpl"/>
 
     <!-- cherez autowire-->
-    <!--<bean name="userRepo1" class="com_test.repo.UserRepoImpl1"/>-->
-    <!--<bean name="userService" autowire="byName" class="com_test.service.UserServiceImpl"/>-->
+    <!--<bean name="avtoRepo1" class="avto_test.avtoRepo.AvtoRepoImpl1"/>-->
+    <!--<bean name="avtoService" autowire="byName" class="avto_test.avtoRepo.AvtoRepoImpl1"/>-->
 
 
 </beans>

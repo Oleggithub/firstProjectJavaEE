@@ -1,7 +1,7 @@
-package avto_test.avtoManager;
+package avto_test_annotation.avtoManager;
 
-import avto_test.avto.Avto;
-import avto_test.avtoService.AvtoService;
+import avto_test_annotation.avto.Avto;
+import avto_test_annotation.avtoService.AvtoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
@@ -21,7 +21,7 @@ public class AvtoManager {
 
     //sozdaem contex
 
-    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-context.xml"); // ischet path k resource
+    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-annotation-context.xml"); // ischet path k resource
     AvtoService avtoService =context.getBean("avtoService", AvtoService.class);
     //AvtoService avtoService = context.getBean("avtoService", AvtoService.class); // poluchili iz xml v resources
     //AvtoRepo avtoRepo = context.getBean("avtoRepo", AvtoRepo.class);// poluchili iz xml v resources
