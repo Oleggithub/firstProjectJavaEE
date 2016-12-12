@@ -2,6 +2,7 @@ package avto_test.avtoService;
 
 import avto_test.avto.Avto;
 import avto_test.avtoRepo.AvtoRepo;
+import org.mockito.invocation.InvocationOnMock;
 
 import java.util.List;
 
@@ -29,5 +30,9 @@ public class AvtoServiceImpl implements AvtoService{
 
     public void setAvtoRepo(AvtoRepo avtoRepo) {
         this.avtoRepo = avtoRepo;
+    }
+
+    public Object answer(InvocationOnMock invocationOnMock) throws Throwable {
+        return avtoRepo.getAllAvto();
     }
 }
