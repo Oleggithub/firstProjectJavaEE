@@ -1,5 +1,5 @@
 #surefire
-#Mon Dec 12 14:36:03 EET 2016
+#Mon Dec 12 19:30:35 EET 2016
 testClassesDirectory=F\:\\Work\\D\\My_Lessons_Java\\Java EE\\DZ\\DZ_9_1\\target\\test-classes
 classPathUrl.4=C\:\\Users\\b_nop\\.m2\\repository\\org\\springframework\\spring-aop\\3.0.6.RELEASE\\spring-aop-3.0.6.RELEASE.jar
 forkMode=once
