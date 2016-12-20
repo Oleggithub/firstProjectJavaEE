@@ -13,7 +13,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages="com.devcolibri.mvc")
+@ComponentScan(basePackages = "com.devcolibri.mvc")
 public class WebConfig {
 
     @Bean

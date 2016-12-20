@@ -19,7 +19,7 @@ public class YearConstraintValidator implements ConstraintValidator<Year, Date> 
 
     @Override
     public boolean isValid(Date target, ConstraintValidatorContext cxt) {
-        if(target == null) {
+        if (target == null) {
             return true;
         }
         Calendar c = Calendar.getInstance();

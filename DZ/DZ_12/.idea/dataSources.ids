@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="H2 - user_db1" uuid="c63938cb-fe5f-4513-bd6a-90c3c1450ed1">
+    <database-info product="H2" version="1.4.192 (2016-05-26)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.192 (2016-05-26)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="USER_DB1"/>
+    <table name="COMPANY" schema="PUBLIC" catalog="USER_DB1" type="TABLE">
+      <column name="USERNAME" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
+      <column name="PASSWORD" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>

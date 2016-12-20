@@ -12,18 +12,18 @@ import javax.validation.Valid;
  * Created by b_nop on 15.12.2016.
  */
 @Controller
-@RequestMapping(value="/valid")
+@RequestMapping(value = "/valid")
 public class HelloController {
 
-    @RequestMapping(method= RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
     public String loadFormPage(Model m) {
         m.addAttribute("user", new User());
         return "hello";
     }
 
-    @RequestMapping(method=RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.POST)
     public String submitForm(@Valid User user, BindingResult result, Model m) {
-        if(result.hasErrors()) {
+        if (result.hasErrors()) {
             return "hello";
         }
 

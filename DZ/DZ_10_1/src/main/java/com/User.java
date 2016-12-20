@@ -12,7 +12,7 @@ public class User {
 
     private String name;
 
-    @DateTimeFormat(pattern="MM/dd/yyyy")
+    @DateTimeFormat(pattern = "MM/dd/yyyy")
     @Past
     @Year(2000)
     private Date date;

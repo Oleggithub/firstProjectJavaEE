@@ -15,7 +15,7 @@ public class PhoneConstraintValidator implements ConstraintValidator<Phone, Stri
 
     @Override
     public boolean isValid(String phoneField, ConstraintValidatorContext cxt) {
-        if(phoneField == null) {
+        if (phoneField == null) {
             return false;
         }
         return phoneField.matches("[0-9()-\\.]*");
