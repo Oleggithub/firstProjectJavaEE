@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1647871313">
-    <data-source source="LOCAL" name="H2 - user_db1" uuid="c63938cb-fe5f-4513-bd6a-90c3c1450ed1">
+  <component name="DataSourceManagerImpl" format="xml" hash="2432305881">
+    <data-source source="LOCAL" name="H2 - user_db2" uuid="c63938cb-fe5f-4513-bd6a-90c3c1450ed1">
       <driver-ref>h2.embedded</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.h2.Driver</jdbc-driver>
-      <jdbc-url>jdbc:h2:file:$PROJECT_DIR$/DB/user_db1</jdbc-url>
+      <jdbc-url>jdbc:h2:file:$PROJECT_DIR$/DB/user_db2</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - data_base_masql1@localhost" uuid="16b97a43-2528-46ff-94c5-e57c5785168a">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/data_base_masql1</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="H2 -" uuid="4e964402-7a87-4c6f-8745-ca4a79fd9835">
+      <driver-ref>h2.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:file:</jdbc-url>
       <libraries />
     </data-source>
   </component>

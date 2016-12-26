@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="H2 - user_db1" uuid="c63938cb-fe5f-4513-bd6a-90c3c1450ed1">
+    <data-source name="H2 - user_db2" uuid="c63938cb-fe5f-4513-bd6a-90c3c1450ed1">
       <secret-storage>master_key</secret-storage>
       <user-name>sa</user-name>
-      <schema-pattern>USER_DB1.PUBLIC</schema-pattern>
+      <schema-pattern>USER_DB2.PUBLIC</schema-pattern>
+    </data-source>
+    <data-source name="MySQL - data_base_masql1@localhost" uuid="16b97a43-2528-46ff-94c5-e57c5785168a">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>as</user-name>
+    </data-source>
+    <data-source name="H2 -" uuid="4e964402-7a87-4c6f-8745-ca4a79fd9835">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
     </data-source>
   </component>
 </project>

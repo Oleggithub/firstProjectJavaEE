@@ -1,0 +1,14 @@
+[ODBC]
+DRIVER=Driver do Microsoft Excel(*.xls)
+UID=admin
+UserCommitSync=Yes
+Threads=3
+SafeTransactions=0
+ReadOnly=0
+PageTimeout=5
+MaxScanRows=8
+MaxBufferSize=2048
+FIL=excel 8.0
+DriverId=790
+DefaultDir=F:\Work\D\My_Lessons_Java\Java EE\DZ\DZ_12_1\DB
+DBQ=F:\Work\D\My_Lessons_Java\Java EE\DZ\DZ_12_1\DB\UserExcel1.xls
